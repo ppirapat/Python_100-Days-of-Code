@@ -1,0 +1,30 @@
+# Ignore Python virtual environments
+#       Contain installed packages, Python binaries, etc.
+#       Huge, OS-dependent, not needed in repo.
+#       Use requirements.txt instead to share deps.
+env_100DoC/
+.env/
+venv/
+
+# Byte-compiled / cache files
+#       Python creates these to speed up execution.
+#       Auto-generated; not source code.
+#       No point in tracking them in Git.
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebook checkpoints
+#       Auto-saves created by Jupyter.
+#       Internal versions, not useful for Git.
+#       Avoid clutter.
+.ipynb_checkpoints/
+
+# OS-specific - Hidden files created by OS.
+# macOS Finder metadata
+.DS_Store
+
+# Windows Explorer thumbnails
+Thumbs.db
+
+
